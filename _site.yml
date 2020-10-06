@@ -15,4 +15,4 @@ output:
     theme: paper
     css: 'styles.css'
     includes:
-      in_header: header.html
+      in_header: header_ga.html
