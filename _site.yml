@@ -1,0 +1,18 @@
+name: "personal_website"
+output_dir: "."
+google_analytics: "UA-179510919-1"
+navbar:
+  title: "Jihwan Park"
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:jhpark [at] jhu [dot] edu
+    - icon: fa-github fa-lg
+      href: http://github.com/jihwanprk
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/jihwanprk
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+    includes:
+      in_header: header.html
